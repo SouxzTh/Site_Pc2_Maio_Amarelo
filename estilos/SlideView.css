@@ -1,0 +1,126 @@
+.slider{
+
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+.slides{
+
+
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.QrcodeSite{
+    width: 50px;
+    height: 50px;
+}
+
+.ManualNavegation{
+
+    position: absolute;
+    width: 1000px;
+    margin-top: -40px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.ManualBtn{
+
+    border: 2px solid #444444;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 5s;
+    margin-top: 90px;
+    
+}
+
+.ManualBtn:not(:last-child){
+    margin-right: 40px;
+    
+}
+
+.ManualBtn:hover{
+    background-color: #444444;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.NavegationAuto div{
+
+    border: 2px solid #007bff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: 1s;
+
+}
+
+.NavegationAuto{
+
+    position: absolute;
+    width: 800px;
+    margin-top: 450px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.NavegationAuto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .NavegationAuto .AutoBtn1{
+    background-color: #444444;
+}
+
+#radio2:checked ~ .NavegationAuto .AutoBtn2{
+    background-color: #444444;
+}
+
+#radio3:checked ~ .NavegationAuto .AutoBtn3{
+    background-color: #444444;
+}
+
+#radio4:checked ~ .NavegationAuto .AutoBtn4{
+    background-color: #444444;
+}

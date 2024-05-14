@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #F5F5F5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+
+    background-color: rgb(245, 224, 108);
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fundo {
+    background-color: rgb(255, 255, 255);
+}
+
+.LogoMaioAmarelo{
+
+    width: 520px;
+    height: 150px;
+    margin-left: 300px;
+    margin-right: 100px;
+
+}
+
+body hr{
+
+    margin-top: -255px;
+    
+
+}
+
+.Texto{
+
+    padding: 25px;
+
+}
+
+.Texto p{
+
+    background-color: #DEDEDE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.Texto h1{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+/* CSS */
+footer {
+    background-color: rgb(245, 224, 108);
+    color: #000000;
+    padding: 40px 0;
+    margin: 0;
+    margin-bottom: -20px;
+    border-radius: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex-basis: 30%;
+    margin: 20px;
+  }
+  
+  .footer-column h4 {
+    margin-top: 0;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer-column a:hover {
+    color: #000000;
+  }
+  
+  .footer-copyright {
+    background-color: rgb(200, 180, 50);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .footer-copyright p {
+    margin: 0;
+  }
+
+  .QrCode{
+
+    width: 150px;
+    height: 150px;
+    margin-right: 300px;
+
+
+  }
+
+
